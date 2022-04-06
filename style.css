@@ -1,0 +1,41 @@
+.container{
+    width:40vw;
+    margin:40px auto;
+    border:1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333d29;
+    border-radius: 10px;
+}
+h2{
+text-align: center;
+}
+#screen{
+    display:block;
+    font-size: 45px;
+    margin:10px auto;
+}
+table{
+    border:10px solid #ccc;
+    margin:10px auto;
+}
+td{
+    height: 50px;
+    width:60px;
+    /* border:2px solid gray; */
+    margin:10px;
+    border-radius:10px;
+    /* box-shadow: 1px 0px 3px gray; */
+}
+button{
+    font-size:35px;
+    height: 100%;
+    width:100%;
+    border-radius:10px;
+    transition: 70ms;
+}
+button:active {
+    transform:scale(0.8);
+}
+body{
+    background-color: #fcd5ce;
+}
